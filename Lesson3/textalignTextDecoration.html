@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Alignment</title>
+    <style>
+        div{ height: 50px; width: 400px;}
+        /* yaha class pass krne se bhi same hoga kyunki div me hm class define kiye hai as
+        .dabba{height: 50px; width: 70px;} */
+        #box1{
+            color: rgb(14, 2, 62);
+            background-color: rgba(243, 7, 7, 0.358);
+            text-align: center;
+            text-decoration: underline;
+        }
+        #box2{
+            color: rgb(1, 18, 18);
+            background-color: red;
+            text-align: left;
+            text-decoration-style: dashed; /* ye kaam nhi kr rha hai */
+            text-decoration: overline;
+            text-decoration-color: aqua;
+            text-transform: lowercase;
+            
+        }
+        #box3{
+            color: white;
+            background-color: blue;
+            text-align: right;
+            text-decoration: line-through;
+        }
+        #link{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="box1" class="dabba">A</div>
+    <div id="box2" class="dabba">BANK of Hindustan</div>
+    <div id="box3" class="dabba">C</div>
+    <a id="link" href="#">Don't Click</a>
+</body>
+</html>
